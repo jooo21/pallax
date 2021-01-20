@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ol, ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+table, td, th {
+  border-collapse: collapse; }
+
+fieldset {
+  border: none; }
+
+input, a, button {
+  outline: 1; }
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  opacity: 0; }
+
+#visual {
+  width: 100%;
+  height: 100vh;
+  background: aqua; }
+
+#intro {
+  width: 100%;
+  padding: 150px 0px; }
+  #intro .inner {
+    width: 1180px;
+    margin: 0px auto; }
+    #intro .inner .wrap::after {
+      content: '';
+      display: block;
+      clear: both; }
+    #intro .inner .wrap article {
+      width: 48%;
+      height: 1000px;
+      border: 1px solid red; }
+      #intro .inner .wrap article:nth-of-type(odd) {
+        float: left; }
+      #intro .inner .wrap article:nth-of-type(even) {
+        float: right; }
+      #intro .inner .wrap article div {
+        width: 100%;
+        height: 400px;
+        transition: 1s; }
+      #intro .inner .wrap article:nth-of-type(1) div {
+        background: lightblue; }
+      #intro .inner .wrap article:nth-of-type(2) div {
+        background: orange; }
+      #intro .inner .wrap article:nth-of-type(3) div {
+        background: violet; }
+      #intro .inner .wrap article:nth-of-type(4) div {
+        background: lightgreen; }
+
+/*# sourceMappingURL=style.css.map */
